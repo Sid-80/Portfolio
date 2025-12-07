@@ -11,7 +11,6 @@ import { IconArrowNarrowLeft, IconArrowNarrowRight } from "@tabler/icons-react";
 import { cn } from "@/lib/utils";
 import { motion } from "motion/react";
 import { ImageProps } from "next/image";
-import Link from "next/link";
 import { InfiniteMovingCards } from "./infinite-moving-cards";
 import { Badge } from "./badge";
 
