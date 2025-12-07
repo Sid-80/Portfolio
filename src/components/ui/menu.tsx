@@ -468,7 +468,7 @@ export const StaggeredMenu: React.FC<StaggeredMenuProps> = ({
               colors && colors.length
                 ? colors.slice(0, 4)
                 : ["#1e1e22", "#35353c"];
-            let arr = [...raw];
+            const arr = [...raw];
             if (arr.length >= 3) {
               const mid = Math.floor(arr.length / 2);
               arr.splice(mid, 1);
